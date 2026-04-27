@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santuario Pacucha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Inter',sans-serif;color:#222;background:#f8f8f6}
+
+    header{
+      height:100vh;
+      background:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:white;
+    }
+
+    header h1{font-family:'Playfair Display',serif;font-size:3.5rem;letter-spacing:1px}
+    header p{margin:20px 0;font-size:1.2rem}
+
+    .btn{
+      padding:14px 30px;
+      background:rgba(255,255,255,0.9);
+      color:#1b3d2f;
+      text-decoration:none;
+      border-radius:30px;
+      font-weight:500;
+    }
+
+    nav{
+      position:fixed;
+      top:0;
+      width:100%;
+      padding:20px 50px;
+      display:flex;
+      justify-content:space-between;
+      background:rgba(0,0,0,0.3);
+      color:white;
+    }
+
+    section{padding:80px 10%;}
+
+    h2{
+      font-family:'Playfair Display',serif;
+      font-size:2rem;
+      margin-bottom:30px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      background:white;
+      border-radius:15px;
+      overflow:hidden;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .card img{width:100%;height:220px;object-fit:cover}
+    .card h3{padding:15px;font-family:'Playfair Display'}
+    .card p{padding:0 15px 20px;color:#666}
+
+    .experience{
+      background:#1b3d2f;
+      color:white;
+      text-align:center;
+      padding:100px 20px;
+    }
+
+    .experience h2{color:white}
+
+    footer{
+      background:#111;
+      color:#ccc;
+      text-align:center;
+      padding:30px;
+    }
+
+    .whatsapp{
+      position:fixed;
+      bottom:25px;
+      right:25px;
+      background:#25D366;
+      color:white;
+      padding:18px;
+      border-radius:50%;
+      text-decoration:none;
+      font-size:22px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div><strong>Santuario Pacucha</strong></div>
+  <div>Habitaciones | Experiencia | Contacto</div>
+</nav>
+
+<header>
+  <div>
+    <h1>Despierta frente a la laguna</h1>
+    <p>Un refugio natural donde el tiempo se detiene</p>
+    <a href="#contacto" class="btn">Reservar experiencia</a>
+  </div>
+</header>
+
+<section>
+  <h2>Habitaciones</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2">
+      <h3>Suite Vista Laguna</h3>
+      <p>Diseño cálido con vistas directas a la naturaleza</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+      <h3>Habitación Doble</h3>
+      <p>Comodidad y tranquilidad para desconectar</p>
+    </div>
+  </div>
+</section>
+
+<section class="experience">
+  <h2>La experiencia Pacucha</h2>
+  <p>Paseos en la laguna, conexión con la naturaleza y momentos inolvidables</p>
+</section>
+
+<section id="contacto">
+  <h2>Reserva tu estadía</h2>
+  <p>Contáctanos directamente por WhatsApp</p>
+  <p><strong>+51 999 999 999</strong></p>
+</section>
+
+<footer>
+  <p>© 2026 Santuario Pacucha</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/51999999999">💬</a>
+
+</body>
+</html>
